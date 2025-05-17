@@ -122,10 +122,16 @@ body {
     transition: 0.4s;
 }
 
-.index-footer{
-    
+.index-footer section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
-
+.maps-container a{
+    background-image: url(../assets/img/maps.png);
+}
 
 
 
