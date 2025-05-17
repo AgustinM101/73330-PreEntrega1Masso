@@ -129,8 +129,109 @@ body {
     align-items: center;
     padding: 20px;
 }
+.maps-container{
+    display: flex;
+    flex-direction: row;
+}
+.maps-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin: 20px 20px 20px 0;
+}
+.maps-container div p{
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: left;
+}
 .maps-container a{
-    background-image: url(../assets/img/maps.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.maps-container a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    
+    margin: 15px;
+    
+}
+.maps-container a img:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.tel-container{
+    display: flex;
+    flex-direction: row;
+}
+.tel-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin: 20px 20px 20px 0;
+}
+.tel-container div p{
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.tel-container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tel-container a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    
+    margin: 15px;
+}
+.tel-container a img:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.email-container{
+    display: flex;
+    flex-direction: row;
+}
+.email-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin: 20px 20px 20px 0;
+}
+.email-container div p{
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.email-container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.email-container a img{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 10px;
+    
+    margin: 15px;
+}
+.email-container a img:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
 }
 
 
