@@ -13,29 +13,69 @@ body {
 
 .index-header{
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-image: url(../assets/img/torinobg6.jpg);
+    
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
     right: 0;
     display: flex;
-    
     border-radius: 50px 50px 50px 50px;
-    overflow: hidden;
+    overflow: visible;
+    text-align: center;
+    background-color: #333;
+    background-color: (0, 0, 0, 0.5);
+    
+}
+.galeria-header {
+    
     text-align: center;
     background-color: #333;
     background-color: (0, 0, 0, 0.5);
 }
+.main-galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #333;
+}
 
-#menu ul{
+.contenedor-galeria{
+    max-width: 1200px;
+    
+}
+.col-md-4 img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    overflow: hidden;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+}
+.card-text{
+    display: flex;
+    justify-content: end;
+}
+
+#menu ul {
     display: flex;
     justify-content: space-between;
     gap: 50px;
+    list-style: none;
+    margin: 0;
     
 
 }
-#menu ul div{
+#menu ul .grupo-menu li a {
     display: flex;
     justify-content: space-between;
     
@@ -46,7 +86,7 @@ body {
     
     
 }
-#menu ul div li{
+#menu ul .grupo-menu li {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +94,7 @@ body {
     margin-left: 10px;
 
 }
-#menu ul div li:hover{
+#menu ul .grupo-menu li a:hover{
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     padding: 10px;
@@ -62,7 +102,7 @@ body {
     transition: 0.3s;
     cursor: pointer;
 }
-#menu ul div li a{
+#menu ul li a{
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -70,14 +110,14 @@ body {
 }
 
 
-#menu ul a img {
+#menu ul li a img {
     width: 50px;
     height: 50px;
     border-radius: 30px;
     border-color: none;
     margin: 15px;
 }
-#menu ul a img:hover {
+#menu ul li a img:hover {
     transform: scale(1.1);
     transition: 0.4s;
     
@@ -125,9 +165,9 @@ body {
 .index-footer .seccion-contacto{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
 .maps-container{
     display: flex;
@@ -261,7 +301,15 @@ body {
     margin-bottom: 10px;
     text-align: left;
 }
-
+.linea-hr{
+    width: 80%;
+    height: 3px;
+    margin-left: 50px;
+    background-color: #41362f;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
 
 
 @media screen and (max-width: 750px){
