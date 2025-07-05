@@ -8,6 +8,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: white;
+  background: linear-gradient(120deg, #5d5858 80%, #0e0d0d 120%);
 }
 
 footer {
@@ -323,7 +324,7 @@ footer {
   width: 90%;
   height: 3px;
   margin-left: 50px;
-  background-color: #41362f;
+  background-color: #41362f2c;
   border: none;
   display: flex;
   justify-content: center;
@@ -339,6 +340,118 @@ footer {
   margin-top: 50px;
   margin-left: 50px;
 }
+#nosotros-container h1 {
+  font-family: Cormorant Garamond, serif;
+
+  margin-bottom: 20px;
+  color: white;
+}
+
+.curiosidades-main {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    
+}
+.curiosidades-main h1 {
+  font-family: Cormorant Garamond, serif;
+  text-align:center;
+  margin-bottom:32px;
+}
+
+.curiosidades-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+.curio-card {
+    background: #292929;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+    padding: 32px 24px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.curio-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 6px 32px rgba(249,135,69,0.25);
+    background: linear-gradient(120deg, #292929 80%, #f98745 120%);
+}
+
+.curio-title {
+    font-size: 19px;
+    font-weight: 700;
+    color: #f98745;
+    margin-bottom: 10px;
+}
+.curio-frase {
+    font-size: 17px;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 0;
+}
+.tributos-main {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.tributos-main h1 {
+  margin-bottom:32px;
+  font-family: Cormorant Garamond, serif;
+  color: white;
+}
+.tributos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+.tributo-card {
+    background: #292929;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+    padding: 24px 18px;
+    text-align: center;
+    color: #fff;
+    transform: translateY(40px);
+    animation: aparece 0.7s forwards;
+}
+
+.tributo-card:nth-child(1) { animation-delay: 0.1s; }
+.tributo-card:nth-child(2) { animation-delay: 0.3s; }
+.tributo-card:nth-child(3) { animation-delay: 0.5s; }
+
+@keyframes aparece {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+ /* estilos para las tarjetas de tributos */
+.tributo-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 12px;
+    border: 3px solid #f98745;
+}
+.tributo-nombre {
+    font-weight: bold;
+    color: #f98745;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+.tributo-frase {
+    font-style: italic;
+    font-size: 1rem;
+    color: #fff;
+}
+.index-footer{
+  color: #222;
+}
+
 @media (max-width: 768px) {
  
   #menu ul {
