@@ -1,0 +1,84 @@
+
+#menu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  list-style: none;
+}
+
+#menu ul .grupo-menu li a {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  gap: 50px;
+  list-style: none;
+  margin: 20px;
+}
+
+#grupo-menu ul li a {
+  color: white;
+}
+
+#menu ul .grupo-menu li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+
+#menu ul .grupo-menu li a:hover {
+  background-color: rgba(182, 165, 165, 0.7);
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+  font-size: 20px;
+}
+
+#menu ul li a img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  border-color: none;
+  margin: 15px;
+}
+
+#menu ul li a img:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+#menu div strong {
+  display: block;
+  font-size: large;
+  font-weight: 400;
+  max-width: 600px;
+  text-align: center;
+  color: white;
+  text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3);
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#menu h1 {
+  font-family: Cormorant Garamond, serif;
+  font-size: 30px;
+  text-align: left;
+  margin-top: 45px;
+  padding-left: 20px;
+  position: relative;
+}

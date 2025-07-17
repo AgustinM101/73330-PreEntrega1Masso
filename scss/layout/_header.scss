@@ -1,0 +1,50 @@
+
+.index-header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./assets/img/torinobg6.jpg);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  right: 0;
+  display: flex;
+  border-radius: 50px 50px 50px 50px;
+  overflow: visible;
+  text-align: center;
+  background-color: #333;
+  background-color: 0, 0, 0, 0.5;
+}
+
+
+#texto1 {
+  display: block;
+  font-weight: 400;
+  color: white;
+  text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#texto2 {
+  display: block;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-left: 50px;
+  color: white;
+  text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.nav-textos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+}
+
+#texto1, #texto2, .nav-textos strong {
+  text-align: left;
+}
+
+.galeria-header {
+  text-align: center;
+  background-color: #333;
+  background-color: 0, 0, 0, 0.5;
+}
